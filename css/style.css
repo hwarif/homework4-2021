@@ -31,9 +31,10 @@ body{
   background-size: cover ;
   background-position: center;
   font-family: 'Andika', sans-serif;
-  background-image: url('../images/pigeon-background.JPEG');
+  background-image: url('../images/pigeon-background.JPEG') no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: #DDDDDD;
-
   /*Req 1*/
 }
 
@@ -71,7 +72,7 @@ a{
 td{
   text-align: center;
   border-top: 2px solid #000000;
-  padding: repeat(4, 10px);
+  padding: 10px 10px 10px 10px;
 }
 
 
@@ -83,6 +84,7 @@ td{
   text-align: center;
   text-transform: uppercase;
   background-color: #7e0825;
+  margin: auto auto;
 }
 
 .rowhead{
@@ -129,9 +131,6 @@ table tbody tr:hover td, table tbody tr:hover th{
 
 
 
-/* tr:nth-child(odd){
-  opacity: 0;
-} */
 
 
 footer{
@@ -143,4 +142,5 @@ footer{
   position: fixed;
   display: block;
   bottom: 0;
+  left: 0;
 }
